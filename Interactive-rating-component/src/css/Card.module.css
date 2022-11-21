@@ -1,0 +1,99 @@
+.card,
+.centeredCard {
+  /* background-color: var(--Dark-Blue); */
+  /* background-image: linear-gradient(
+    to bottom,
+    var(--Dark-Blue),
+    var(--Very-Dark-Blue)
+  ); */
+  background-image: radial-gradient(
+    at top,
+    var(--Dark-Blue),
+    var(--Very-Dark-Blue) 200%
+  );
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-rows: repeat(max-content, 1fr);
+}
+
+.icon {
+  background-color: var(--Dark-Blue);
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.title,
+.centeredTitle {
+  font-size: 26px;
+  color: var(--White);
+  margin: 0;
+}
+.paragraph,
+.centeredPara {
+  color: var(--Light-Grey);
+  margin: 0;
+}
+.ratingContainer {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.ratingBtn,
+.active {
+  background-color: var(--Dark-Blue);
+  color: var(--Light-Grey);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.ratingBtn:hover {
+  background-color: var(--Orange);
+  color: var(--White);
+}
+.radioInput {
+  display: none;
+}
+
+.submitBtn {
+  background-color: var(--Orange);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  text-align: center;
+  border-radius: 100px;
+  padding: 10px;
+  cursor: pointer;
+}
+.submitBtn:focus,
+.submitBtn:hover {
+  color: var(--Orange);
+  background-color: var(--White);
+}
+
+.active {
+  background-color: var(--Light-Grey);
+  color: var(--White);
+}
+
+.centeredPara,
+.centeredTitle,
+.choice {
+  text-align: center;
+}
+.centeredCard {
+  display: grid;
+  justify-items: center;
+  flex-direction: column;
+}
