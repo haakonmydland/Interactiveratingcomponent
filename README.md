@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-JZOjdGT4mE)
-- Live Site URL: [Add live site URL here](https://interactiveratingcomponent.pages.dev/)
+- Solution URL: [frontendmentor](https://www.frontendmentor.io/solutions/interactive-rating-component-react-typescript-JZOjdGT4mE)
+- Live Site URL: [interactiveratingcomponent.pages.dev](https://interactiveratingcomponent.pages.dev/)
 
 ## My process
 
