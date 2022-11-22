@@ -1,11 +1,5 @@
 .card,
 .centeredCard {
-  /* background-color: var(--Dark-Blue); */
-  /* background-image: linear-gradient(
-    to bottom,
-    var(--Dark-Blue),
-    var(--Very-Dark-Blue)
-  ); */
   background-image: radial-gradient(
     at top,
     var(--Dark-Blue),
@@ -16,7 +10,7 @@
   border-radius: 1.5rem;
   display: grid;
   gap: 1rem;
-  grid-template-rows: repeat(max-content, 1fr);
+  grid-template-rows: repeat(4, max-content);
 }
 
 .icon {
@@ -87,13 +81,24 @@
   color: var(--White);
 }
 
+.choice {
+  color: var(--Orange);
+  background-color: var(--Dark-Blue);
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  padding: 10px 15px;
+}
+
 .centeredPara,
 .centeredTitle,
 .choice {
   text-align: center;
 }
 .centeredCard {
+  gap: 1.5rem;
   display: grid;
   justify-items: center;
   flex-direction: column;
+  padding: 2.5rem 2rem;
 }
